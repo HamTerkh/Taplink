@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(255, 17, 255, 0.512);
+}
+.page-wrapper {
+  max-width: 375px;
+  margin: auto;
+}
