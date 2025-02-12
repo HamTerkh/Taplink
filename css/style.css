@@ -1,11 +1,33 @@
 * {
   box-sizing: border-box;
 }
-
 body {
-  background-color: rgba(255, 17, 255, 0.512);
+  background-color: rgba(2, 57, 2, 0.703);
+  padding: 15px;
+  font-family: "Inter", serif;
 }
 .page-wrapper {
   max-width: 375px;
   margin: auto;
+  box-shadow: 0 0 30px 0 rgba(101, 101, 101, 0.25);
+  background: #adadad;
+  border-radius: 20px;
+}
+.header {
+  collor: #eee9e9fb;
+  padding: 40px 42px 145px;
+  background: url("../img/header-bg.png") no-repeat center / cover;
+  border-radius: 0 0 90px 90px;
+}
+.hello {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
+.hello-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
 }
