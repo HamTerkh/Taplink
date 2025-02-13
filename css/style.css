@@ -7,14 +7,19 @@ body {
   font-family: "Inter", serif;
 }
 .page-wrapper {
+  overflow: hidden;
   max-width: 375px;
   margin: auto;
   box-shadow: 0 0 30px 0 rgba(101, 101, 101, 0.25);
   background: #adadad;
   border-radius: 20px;
 }
+.container {
+  max-width: 300px;
+  margin: auto;
+}
 .header {
-  collor: #eee9e9fb;
+  color: #fff;
   padding: 40px 42px 145px;
   background: url("../img/header-bg.png") no-repeat center / cover;
   border-radius: 0 0 90px 90px;
@@ -28,4 +33,33 @@ body {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
+}
+.user {
+  margin-top: -79px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+  background: #cdcdcd;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+.user-avatar {
+  margin-top: -43px;
+  object-fit: cover;
+  border-radius: 100%;
+  stroke-width: 2px;
+  stroke: #8b8b8b;
+}
+.user-name {
+  margin-top: 8px;
+  margin-bottom: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.user-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  color: #6a6a6a;
+  margin-top: 4px;
 }
