@@ -25,12 +25,12 @@ body {
   border-radius: 0 0 90px 90px;
 }
 .hello {
-  font-family: var(--font-family);
+  font-family: "Inter", serif;
   font-weight: 500;
   font-size: 20px;
 }
 .hello-text {
-  font-family: var(--font-family);
+  font-family: "Inter", serif;
   font-weight: 400;
   font-size: 16px;
 }
@@ -92,7 +92,7 @@ body {
   color: #fff;
   font-weight: 500;
   font-size: 12px;
-  line-height: 15;
+  line-height: 15px;
   gap: 10px;
 }
 .button.vk {
@@ -103,4 +103,9 @@ body {
 }
 .button.wc {
   background-color: #4c8;
+}
+.button.github {
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
 }
